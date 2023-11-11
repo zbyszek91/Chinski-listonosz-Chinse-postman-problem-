@@ -35,4 +35,21 @@ Przykładowe wejście
 7 8 3
 7 9 2
 8 9 1
-przykładowe wyjście 
+./Przyklad.exe -f wejscie.txt --maxwaga
+odpowiedź :
+Liczba krawedzi w maksymalnym dopasowaniu: 5
+Krawedzie w dopasowaniu:
+ 0  1
+ 2  3
+ 4  8
+ 5  6
+ 7  9
+./Przyklad.exe -f wejscie.txt --minwaga
+odpowiedź:
+Optymalna liczba krawedzi w dopasowaniu: 14
+Liczba krawedzi w dopasowaniu:
+0 2
+1 5
+3 4
+6 7
+8 9
